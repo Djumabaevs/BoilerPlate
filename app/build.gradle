@@ -47,4 +47,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation "androidx.recyclerview:recyclerview:1.2.1"
     implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
+    def koin_version = "3.0.1"
+    implementation "io.insert-koin:koin-android:3.1.0"
+// Koin Android - experimental builder extensions
+    implementation "io.insert-koin:koin-android-ext:3.0.2"
+// Koin for Jetpack WorkManager
+// Koin for Jetpack Compose (unstable version)
+    implementation "io.insert-koin:koin-androidx-compose:$koin_version"
 }
