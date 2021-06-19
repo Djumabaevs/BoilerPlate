@@ -12,3 +12,7 @@ val usecaseModule = module {
         )
     }
 }
+
+class RefreshGitHUbReposUseCase(appCoroutineDispatchers: Any, githubRemoteDepo: Any, githubLocalRepo: Any) {
+
+}
